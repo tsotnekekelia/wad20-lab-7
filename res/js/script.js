@@ -30,7 +30,7 @@ function displayUserInfo(user) {
 function loadUserInfo() {
     return $.get(
         {
-            url: 'https://wad20-lab7.free.beeceptor.com/users/1',
+            url: 'data/user.json',
             success: function (response) {
                 return response;
             },
